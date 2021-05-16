@@ -24,13 +24,13 @@ img{
   border-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhaHd_wPTJXZQB-vAaGNpclP-aTbEs08650yub9hT1buTwMQfpLghe0ip4p8WEnXtFpr8&usqp=CAU://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjBo-cgahXPw8QFaSauyCpvHE1QGbefGdrww&usqp=CAU.png) 60 round;
 }
 div{
-    margin-left: 200px;
+    margin-left: 300px;
 }
 /* #hiddenBtn{
     display: none;
 } */
 button{
-    margin-left: 430px;
+    margin-left: 330px;
   display: inline-block;
   padding: 10px;
   font-size: 15px;
