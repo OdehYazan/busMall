@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Goblin One', cursive;
+}
+p{
+    text-align: center;
+     font-size: large; 
+    font-family: 'Bebas Neue', cursive;
+}
+span{
+    font-family: 'Bebas Neue', cursive;
+}
+img{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    /* border: 10px solid black; */
+    border: 20px solid transparent;
+  padding: 5px;
+  border-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhaHd_wPTJXZQB-vAaGNpclP-aTbEs08650yub9hT1buTwMQfpLghe0ip4p8WEnXtFpr8&usqp=CAU://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjBo-cgahXPw8QFaSauyCpvHE1QGbefGdrww&usqp=CAU.png) 60 round;
+}
+div{
+    margin-left: 200px;
+}
+/* #hiddenBtn{
+    display: none;
+} */
+button{
+    margin-left: 430px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  /* cursor:pointer; */
+  text-align: center;
+  text-decoration: none;
+  /* outline: none; */
+  color: rgb(0, 0, 0);
+  background-color: #be5bdf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
+}
+button:hover {background-color: #c692f2}
+
+button:active {
+  transform: translateY(2px);
+}
+
+ul{
+    background-color:#d28be9 ;
+    width: 350px;
+}
+li{
+
+
+    padding: 5px;
+    margin-top: 10px;;
+    width: 350px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #edcff7;
+}
