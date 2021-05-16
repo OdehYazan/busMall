@@ -40,11 +40,12 @@ function render(){
   middleImgIndex = randomImageIndex();
   rightImgIndex = randomImageIndex();
 
-  while (leftImgIndex === middleImgIndex){
+  while (leftImgIndex === middleImgIndex || leftImgIndex === rightImgIndex){
     leftImgIndex = randomImageIndex();
+
   }
-  while(leftImgIndex === rightImgIndex){
-    leftImgIndex = randomImageIndex();
+  while(middleImgIndex === rightImgIndex){
+    middleImgIndex = randomImageIndex();
   }
   lImg.setAttribute('src', products[leftImgIndex].source);
   products[leftImgIndex].views++;
@@ -85,13 +86,13 @@ function clicksFun(event){
     btnDiv.appendChild(btnEl);
     btnEl.textContent = 'View Results';
     btnEl.addEventListener('click',resultsFun);
-    
+
     lImg.removeEventListener('click',clicksFun);
     mImg.removeEventListener('click',clicksFun);
     rImg.removeEventListener('click',clicksFun);
 
   }
- 
+
 }
 
 
@@ -105,6 +106,6 @@ function resultsFun(){
     liEl.textContent = `${products[i].productName} had ${products[i].clicks} votes, and was seen ${products[i].views} times.`;
     btnEl.removeEventListener('click',resultsFun);
   }
-  
+
 
 }
