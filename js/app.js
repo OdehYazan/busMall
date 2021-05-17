@@ -10,10 +10,11 @@ let btnDiv = document.getElementById('btnDiv');
 let leftImgIndex;
 let middleImgIndex;
 let rightImgIndex;
-let maxRounds = 10;
+let maxRounds = 25;
+maxRounds =prompt('Please enter rounds number ');
 let index = [];
 let btnEl = document.createElement('button');
-// let MaxRounds =prompt('Please enter rounds number ');
+
 
 let images = ['bag.jpg', 'banana.jpg', 'bathroom.jpg', 'boots.jpg', 'bubblegum.jpg', 'chair.jpg', 'cthulhu.jpg', 'dog-duck.jpg', 'dragon.jpg', 'pen.jpg', 'pet-sweep.jpg', 'scissors.jpg', 'shark.jpg', 'sweep.png', 'tauntaun.jpg', 'unicorn.jpg', 'water-can.jpg', 'wine-glass.jpg', 'breakfast.jpg'];
 
