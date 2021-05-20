@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(205, 213, 209);
+}
 
 h1{
     text-align: center;
@@ -66,8 +69,10 @@ li{
     font-family: 'Bebas Neue', cursive;
     background-color: #edcff7;
 }
-#myChart{
+#chart{
     display: inline-block;
-    width: 350px;
-    height: 350px;
+ height: 500px;
+ width:500px;
+ margin-left:450px;
+    
 }

@@ -10,7 +10,7 @@ let btnDiv = document.getElementById('btnDiv');
 let leftImgIndex;
 let middleImgIndex;
 let rightImgIndex;
-let maxRounds = 5;
+let maxRounds = 25;
 maxRounds =prompt('Please enter rounds number ');
 let index = [];
 let btnEl = document.createElement('button');
